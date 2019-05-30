@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PieChartFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Date"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            android:id="@+id/pie_chart_date" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:id="@+id/pie_chart_btn" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:layout_height="500dp"
+            android:layout_width="match_parent"
+            android:id="@+id/report_pie_chart"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</FrameLayout>
