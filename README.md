@@ -1,6 +1,6 @@
 # Calorie-Tracker-App
 
-# What I learned
+## What I learned
 
 - Using different views and components in android
 - Making different charts for creating calorie reports
