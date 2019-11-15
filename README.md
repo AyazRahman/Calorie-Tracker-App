@@ -1,6 +1,6 @@
 # Calorie-Tracker-App
 
-Calorie tracker app was developed to help users
+Calorie tracker app was developed to help users track their daily calorie intake. FatSecret api was integrated to get information about food and google pic api was used to get relevant food information. The app can also generate calorie intake reports for the user and show nearby parks on a map.
 
 ## What I learned
 
